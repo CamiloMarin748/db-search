@@ -1,0 +1,127 @@
+/* fuente importada desde google chrome */
+@import url(https://fonts.googleapis.com/css2?family=Crimson+Pro&amp;display=swap);
+
+/*selectores de elementos *
+
+/* centramos el titulo h1 */
+
+
+h1 {
+  
+  font-family: 'Ballet', sans-serif;
+  color: rgb(55, 0, 255);  
+  text-align: center;  
+}
+h2 {
+  
+  font-family: 'Ballet', sans-serif;
+  color: rgb(102, 30, 236);  
+  text-align: center;  
+}
+/* Mostraemos el titulo h2 a la derecha */
+section h2 {
+  font-family: 'Comic sans', sans-serif;
+  text-align: center;
+  color :black;
+}
+
+
+/*label {
+  font-size: 12px;
+  font-family: 'Ballet', sans-serif;
+  /*color: red;  
+  text-align: center;
+  width: 100%; 
+}*/
+
+
+section p {
+  text-align: center;
+  color: black;
+  }
+
+
+/*Selector descendente*/
+span {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: royalblue;
+  text-decoration: underline;
+}
+
+p span {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: royalblue;
+  text-decoration: underline;
+}
+
+div span {
+    font-weight: bold;
+    font-style: italic;
+  text-decoration: underline;
+      
+}
+
+/*Selector de clase*/
+.holamundo {
+    color: red;
+    font-weight: bold;
+}
+
+/*Selector de id*/
+#hola-mundo-especial {
+  color: blue;
+  font-weight: bold;
+}
+
+.footer {
+  font-size:small;
+  text-align: center;
+  font-weight: bold;
+  color: black;  
+}
+
+.footer h1 {
+  font-size:x-large;
+  font-family: 'Ballet', sans-serif;
+  color: red;  
+  text-align: center;
+  
+}
+
+.footer h2 {
+  font-size:medium;
+  font-family: 'Ballet', sans-serif;
+  text-align: center;
+  color: black;
+
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+ /* border: 3px solid #73AD21;*/
+  padding: 10px;
+}
+
+.image {
+    /*display: block;*/
+    margin-left: 40%;
+   /* margin-right: auto;*/
+    /*width: 25%;*/
+}
+
+.link {
+  
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: royalblue;
+  text-decoration: underline;
+  display: inline-block;
+  width: 100%;
+
+}

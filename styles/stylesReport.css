@@ -1,0 +1,29 @@
+
+
+
+
+
+.form {
+   width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .form input {
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  }
+/*
+  label {
+    font-size: 12px;
+    font-family: 'Ballet', sans-serif;
+    /*color: red;  
+    text-align: center;
+    width: 100%; 
+  }*/
+  
